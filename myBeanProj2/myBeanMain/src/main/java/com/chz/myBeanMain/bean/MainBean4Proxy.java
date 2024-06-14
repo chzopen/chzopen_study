@@ -1,6 +1,6 @@
 package com.chz.myBeanMain.bean;
 
-public class MainBean4Proxy implements IMainBean4{
+public class MainBean4Proxy implements IMainBean4 {
 
     private MainBean4 mainBean4;
 
