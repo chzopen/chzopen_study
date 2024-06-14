@@ -16,6 +16,6 @@ public class MainBean2 {
         log.info("chz >>> MainBean1.<init>()");
     }
 
-    private String name = "MainBean1";
+    private String name = "MainBean2";
 
 }
