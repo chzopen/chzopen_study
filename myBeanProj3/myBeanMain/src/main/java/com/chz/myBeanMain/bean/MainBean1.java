@@ -8,14 +8,14 @@ import org.springframework.stereotype.Component;
 @Slf4j
 @Getter
 @Setter
-// @Component   // 注意没有注解
-public class MainBean2 {
+@Component
+public class MainBean1 {
 
-    public MainBean2()
+    public MainBean1()
     {
-        log.info("chz >>> MainBean2.<init>()");
+        log.info("chz >>> MainBean1.<init>()");
     }
 
-    private String name = "MainBean2";
+    private String name = "MainBean1";
 
 }

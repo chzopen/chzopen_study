@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Slf4j
 @Getter
 @Setter
-// @Component
+// @Component   // 注意没有注解
 public class MainBean3 {
 
     public MainBean3()

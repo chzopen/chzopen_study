@@ -23,6 +23,7 @@ public class MyBeanPostProcessor implements BeanPostProcessor
     {
         log.info("chz >>> MyBeanPostProcessor.postProcessAfterInitialization(): {}", beanName);
         if( (bean instanceof IMainBean4) && !(bean instanceof MainBean4Proxy)){
+            // 代码bean
             bean = new MainBean4Proxy((MainBean4)bean);
         }
         return bean;
