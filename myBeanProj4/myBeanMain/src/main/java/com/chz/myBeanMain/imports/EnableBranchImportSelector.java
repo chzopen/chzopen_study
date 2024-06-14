@@ -1,0 +1,17 @@
+//package com.chz.myBeanMain.imports;
+//
+//import com.chz.myBeanMain.imports.importSelector.BranchCommonImportSelector;
+//import com.chz.myBeanMain.imports.importSelector.BranchDeferredImportSelector;
+//import org.springframework.context.annotation.Import;
+//
+//import java.lang.annotation.*;
+//
+//@Retention(RetentionPolicy.RUNTIME)
+//@Documented
+//@Target(ElementType.TYPE)
+//@Import({
+//        BranchCommonImportSelector.class,                 // 这里使用了@ImportSelector
+//        BranchDeferredImportSelector.class          // 这里使用了@DeferredImportSelector
+//})
+//public @interface EnableBranchImportSelector {
+//}
