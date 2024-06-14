@@ -1,13 +1,13 @@
 package com.chz.myBeanMain;
 
-import com.chz.myBeanBranch.EnableBranchImportSelector;
 import com.chz.myBeanMain.bean.NotAnnotatedBean;
+import com.chz.myBeanRegistrar.EnableBranchRegistrar;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 
 @Import(NotAnnotatedBean.class)         // 这里使用了@Import
-@EnableBranchImportSelector             // 这里使用了@ImportSelector
+@EnableBranchRegistrar                  // 这里使用了@ImportBeanDefinitionRegistrar
 @SpringBootApplication
 public class MyBeanMainTest {
 

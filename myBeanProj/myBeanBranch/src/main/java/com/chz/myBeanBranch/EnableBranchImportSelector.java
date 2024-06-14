@@ -1,7 +1,7 @@
 package com.chz.myBeanBranch;
 
-import com.chz.myBeanBranch.importSelector.BranchDeferredImportSelector;
 import com.chz.myBeanBranch.importSelector.BranchCommonImportSelector;
+import com.chz.myBeanBranch.importSelector.BranchDeferredImportSelector;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;

@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 // 被【ImportSelector】指过来的类不需要添加【@RestController】，但要加【@ResponseBody】
 @Slf4j
 @ResponseBody
-@RequestMapping("/branch")
+@RequestMapping("/branch/common")
 public class BranchCommonController {
 
     @Autowired
