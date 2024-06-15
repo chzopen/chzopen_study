@@ -1,0 +1,19 @@
+GET http://localhost:8080/actuator/chzEndpoint
+
+###
+
+GET http://localhost:8080/actuator/chzEndpoint/p1
+
+###
+
+POST http://localhost:8080/actuator/chzEndpoint/p1
+Content-Type: application/json
+
+{
+  "value": 111.0
+}
+
+###
+
+DELETE http://localhost:8080/actuator/chzEndpoint/p1
+Content-Type: application/json
