@@ -309,13 +309,6 @@
                 <version>1.26</version>
             </dependency>
 
-            <dependency>
-                <groupId>pl.project13.maven</groupId>
-                <artifactId>git-commit-id-plugin</artifactId>
-                <version>3.0.1</version>
-            </dependency>
-
-
         </dependencies>
     </dependencyManagement>
 
@@ -329,7 +322,7 @@
                 <configuration>
                     <compilerArgs>
                         <!--
-                            下面这个【-parameters】很重要，没有这个参数的话【/actuator/chzEndpoint/p1】这个地址无法访问
+                            添加编译参数【-parameters】很重要，没有这个参数的话【/actuator/chzEndpoint/p1】这个地址无法访问
                         -->
                         <arg>-parameters</arg>
                     </compilerArgs>
@@ -345,7 +338,6 @@
                         <phase>package</phase>
                         <goals>
                             <goal>repackage</goal>
-                            <goal>build-info</goal>
                         </goals>
                     </execution>
                 </executions>
